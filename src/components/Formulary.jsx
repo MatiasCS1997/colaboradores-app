@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { nanoid } from "nanoid";
-import { CollaboratorsBase } from "../components/Collaborators";
+import { CollaboratorsBase } from "./Collaborators";
 import Search from "../components/Search";
 
 const Formulary = () => {
@@ -12,7 +12,7 @@ const Formulary = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!user) {
-      alert("Debes completar los campos vacíos");
+      alert("Completa los campos vacíos");
       return;
     }
 
@@ -41,7 +41,7 @@ const Formulary = () => {
             <input
               type="text"
               className="Seeker"
-              placeholder="Ingrese correo"
+              placeholder="Ingrese correo electronico"
               onChange={(e) => setEmail(e.target.value)}
               value={email}
             />
@@ -51,7 +51,7 @@ const Formulary = () => {
       </section>
 
       <div id="users">
-        <h3>Jugadores encontrados</h3>
+        <h3>Fúbolistas encontrados</h3>
         <table>
           <thead>
             <tr>

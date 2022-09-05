@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <h1>
-        <h1>Jugadores</h1>
+        <h1>Nómina de Fútbolistas</h1>
       </h1>
       <Formulary />
     </>

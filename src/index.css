@@ -1,13 +1,32 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.Seeker {
+  height: 25px;
+  width: 50%;
+}
+.Seeker2 {
+  height: 25px;
+  width: 50%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+  background-color: rgb(255, 77, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 40px;
+}
+
+h1,
+h3 {
+  color: rgba(255, 255, 255, 0.808);
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  background-image: url(https://images2.alphacoders.com/988/988363.jpg);
+  background-size: auto 185%;
 }
