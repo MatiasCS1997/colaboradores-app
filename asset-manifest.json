@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/colaboradores-app/static/css/main.a4f6f3c5.css",
+    "main.js": "/colaboradores-app/static/js/main.01e29b61.js",
+    "static/js/787.35aef81f.chunk.js": "/colaboradores-app/static/js/787.35aef81f.chunk.js",
+    "index.html": "/colaboradores-app/index.html",
+    "main.a4f6f3c5.css.map": "/colaboradores-app/static/css/main.a4f6f3c5.css.map",
+    "main.01e29b61.js.map": "/colaboradores-app/static/js/main.01e29b61.js.map",
+    "787.35aef81f.chunk.js.map": "/colaboradores-app/static/js/787.35aef81f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4f6f3c5.css",
+    "static/js/main.01e29b61.js"
+  ]
+}
